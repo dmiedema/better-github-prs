@@ -1,1 +1,1 @@
-README.md
+Better-GitHub-PRs.safariextension/README.md
