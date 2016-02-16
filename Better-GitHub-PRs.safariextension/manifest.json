@@ -1,0 +1,13 @@
+{
+  "manifest_version": 1,
+
+  "name": "Better Github PRs by appending `w=1` to the URL",
+  "description": "This extension will append `w=1` to PR URLs which ignores all whitespace changes.",
+  "version": "1.0",
+  "content_scripts":[{
+        "matches": ["https://github.com/*"],
+        "js": ["script.js"],
+        "run_at" : "document_end"
+      }
+    ]
+}
